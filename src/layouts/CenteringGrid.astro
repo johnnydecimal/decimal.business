@@ -1,0 +1,23 @@
+---
+
+---
+
+<div class="grid-container">
+  <div class="grid-600">
+    <p>Hi I am a paragraph. I will be `slot`.</p>
+    <slot />
+  </div>
+</div>
+
+<style lang="scss">
+  .grid-container {
+    border: 1px dotted hotpink;
+    margin: 0 auto;
+    max-width: 600px;
+
+    .grid {
+      border: 1px dashed yellow;
+      display: grid;
+    }
+  }
+</style>

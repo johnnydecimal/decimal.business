@@ -1,9 +1,22 @@
 <footer class="desktop">
-  © 2024 Johnny.Decimal · Made with love in Canberra, Australia
+  © 2024 Johnny.Decimal · <a
+    href="https://johnnydecimal.com/20-29-communication/21-send-and-receive/21.01-contact-me/"
+    >Contact</a
+  > · <a
+    href="https://johnnydecimal.com/00-09-site-administration/01-about/01.03-privacy/"
+    >Privacy</a
+  > · Made with love in Canberra, Australia
 </footer>
 
 <footer class="mobile">
   © 2024 Johnny.Decimal<br />
+  <a
+    href="https://johnnydecimal.com/20-29-communication/21-send-and-receive/21.01-contact-me/"
+    >Contact</a
+  > · <a
+    href="https://johnnydecimal.com/00-09-site-administration/01-about/01.03-privacy/"
+    >Privacy</a
+  ><br />
   Made with love in Canberra, Australia
 </footer>
 
@@ -29,6 +42,16 @@
       font-size: 0.7rem;
       @include r.mobile {
         display: block;
+      }
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+      &:hover,
+      &:hover:visited {
+        background-color: var(--text);
+        color: var(--background);
       }
     }
   }

@@ -16,6 +16,7 @@
     <div id="platinum" class="price-details">
       <h3><em>Platinum</em></h3>
       <img src="/img/qf-platinum-light.jpg" />
+      <!-- <img src="/img/ezgif-3-4df67e170f.gif" /> -->
       <ul>
         <li>
           <strong>Lifetime</strong> access.
@@ -41,7 +42,9 @@
       <h1 class="alt-digits">$150</h1>
     </div>
   </div>
-  <p class="price-note">All prices in US dollars.</p>
+  <p class="price-note">
+    All prices in US dollars. You may choose your local currency at checkout.
+  </p>
 
   <p>
     You'll never lose access to your existing system: but with <em>Gold</em>,
@@ -58,13 +61,13 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 
+    margin: 2rem 0;
+
     @include r.mobile {
       grid-template-columns: 1fr;
       margin: 2rem auto;
       max-width: 400px;
     }
-
-    margin: 2rem 0;
   }
 
   .price-details {
@@ -75,6 +78,18 @@
     @include r.dark {
       background-color: var(--blue-800);
       box-shadow: 0px 4px 8px rgba(232, 234, 236, 0.2);
+    }
+
+    &:hover {
+      background: linear-gradient(-45deg, #eee 40%, #fafafa 50%, #eee 60%);
+      background-size: 300%;
+      background-position-x: 100%;
+      animation: shimmer 1s infinite linear;
+      @keyframes shimmer {
+        to {
+          background-position-x: 0%;
+        }
+      }
     }
   }
 

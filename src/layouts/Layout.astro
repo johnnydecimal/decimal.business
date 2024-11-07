@@ -15,11 +15,10 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title ? `${title} •` : ""} Decimal.Business</title>
 
-    <!-- Playfair Display -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -44,11 +43,21 @@ const { title } = Astro.props;
     line-height: 1.5;
   }
 
+  code {
+    background: var(--code-bg);
+    border-bottom: 2px solid var(--code-border);
+    font-family: "Fira Mono";
+    font-size: 0.95rem;
+    padding-inline: 0.2rem;
+    padding-top: 0.2rem;
+  }
+
   h1 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
   }
-  h2 {
+  h2,
+  h3 {
     margin: 1rem 0;
   }
 

@@ -1,0 +1,35 @@
+<footer class="desktop">
+  © 2024 Johnny.Decimal · Made with love in Canberra, Australia
+</footer>
+
+<footer class="mobile">
+  © 2024 Johnny.Decimal<br />
+  Made with love in Canberra, Australia
+</footer>
+
+<style lang="scss">
+  @use "../style/responsive" as r;
+
+  footer {
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    font-variant-numeric: lining-nums;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+
+    &.desktop {
+      @include r.mobile {
+        display: none;
+      }
+    }
+    &.mobile {
+      display: none;
+      font-size: 0.7rem;
+      @include r.mobile {
+        display: block;
+      }
+    }
+  }
+</style>

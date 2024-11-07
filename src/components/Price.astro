@@ -22,7 +22,12 @@
         </li>
         <li>All updates, forever.</li>
         <li>Community access, forever.</li>
+        <li>
+          Exclusive low price: only <span class="alt-digits">2</span>× Gold
+          while in pre-launch.
+        </li>
       </ul>
+      <h1 class="alt-digits">$300</h1>
     </div>
 
     <div id="gold" class="price-details">
@@ -30,16 +35,17 @@
       <img src="/img/qf-gold-light.jpg" />
       <ul>
         <li><strong>Annual</strong> membership.</li>
-        <li>Updates while membership current.</li>
-        <li>Community access while membership current.</li>
+        <li>Updates & community access while membership current.</li>
+        <li>Renewal price locked in: will increase when launched.</li>
       </ul>
+      <h1 class="alt-digits">$150</h1>
     </div>
   </div>
+  <p class="price-note">All prices in US dollars.</p>
 
   <p>
-    You'll never lose access to something you already have: but with <em
-      >Gold</em
-    >, updates stop if you end your membership, and you'll lose access to the
+    You'll never lose access to your existing system: but with <em>Gold</em>,
+    updates stop if you end your membership, and you'll lose access to the
     community.
   </p>
 </div>
@@ -64,17 +70,34 @@
   .price-details {
     border: 2px solid var(--border);
     background-color: var(--blue-200);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(17, 38, 42, 0.2);
     padding: 0.5rem;
     @include r.dark {
-      box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+      background-color: var(--blue-800);
+      box-shadow: 0px 4px 8px rgba(232, 234, 236, 0.2);
     }
+  }
+
+  .alt-digits {
+    font-variant-numeric: lining-nums;
+  }
+
+  .price-note {
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
   }
 
   @include r.mobile {
     #gold {
       margin-top: 2rem;
     }
+  }
+
+  h1 {
+    border: 0;
+    font-size: 3rem;
+    text-align: center;
   }
 
   h3 {
@@ -85,6 +108,7 @@
 
   ul {
     list-style-position: inside;
+    height: 160px;
     margin-top: 1rem;
     padding-left: 0.1rem;
     li {

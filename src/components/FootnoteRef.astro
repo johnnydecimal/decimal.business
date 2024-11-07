@@ -1,0 +1,21 @@
+---
+interface Props {
+  number: string;
+  ref: string;
+}
+const { number, ref } = Astro.props;
+---
+
+<sup><a href=`#fn-${ref}`>{number}</a></sup>
+
+<style lang="scss">
+  @use "../style/responsive" as r;
+
+  sup {
+    a {
+      padding-inline-start: 0.1rem;
+      padding-inline-end: 0.2rem;
+      text-decoration: none;
+    }
+  }
+</style>

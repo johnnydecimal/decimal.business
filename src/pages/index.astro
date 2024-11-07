@@ -11,6 +11,8 @@ import Home_OpsManual from "../components/words/Home_OpsManual.mdx";
 import Home_Community from "../components/words/Home_Community.mdx";
 import Home_Efficient from "../components/words/Home_Efficient.mdx";
 
+import Price from "../components/Price.astro";
+
 import Image from "../components/Image.astro";
 
 // Test
@@ -25,7 +27,9 @@ import Image from "../components/Image.astro";
     <IntroColumns />
   </CenteringGrid>
 
-  <HR />
+  <CenteringGrid width="800">
+    <Image src="grand-total.jpg" />
+  </CenteringGrid>
 
   <CenteringGrid padded>
     <Home_GlobalStandard />
@@ -54,4 +58,17 @@ import Image from "../components/Image.astro";
   <CenteringGrid padded>
     <Home_Efficient />
   </CenteringGrid>
+
+  <CenteringGrid width="800">
+    <Image src="business-news.jpg" />
+  </CenteringGrid>
+
+  <CenteringGrid padded>
+    <Price />
+  </CenteringGrid>
+
+  <div style="margin-top: 3rem">
+    &nbsp;
+    <!-- spacer -->
+  </div>
 </Layout>

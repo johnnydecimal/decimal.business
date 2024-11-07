@@ -1,0 +1,98 @@
+<div>
+  <h1>Let's do business</h1>
+
+  <p>
+    The system is currently in development. You are invited to join us in the
+    lounge while you wait.
+  </p>
+
+  <p>
+    Both membership tiers include instant access to all existing Johnny.Decimal
+    products. If you choose the <em>Gold</em> plan, you get access to anything we
+    release while you're a member.
+  </p>
+
+  <div id="prices">
+    <div id="platinum" class="price-details">
+      <h3><em>Platinum</em></h3>
+      <img src="/img/qf-platinum-light.jpg" />
+      <ul>
+        <li>
+          <strong>Lifetime</strong> access.
+        </li>
+        <li>All updates, forever.</li>
+        <li>Community access, forever.</li>
+      </ul>
+    </div>
+
+    <div id="gold" class="price-details">
+      <h3><em>Gold</em></h3>
+      <img src="/img/qf-gold-light.jpg" />
+      <ul>
+        <li><strong>Annual</strong> membership.</li>
+        <li>Updates while membership current.</li>
+        <li>Community access while membership current.</li>
+      </ul>
+    </div>
+  </div>
+
+  <p>
+    You'll never lose access to something you already have: but with <em
+      >Gold</em
+    >, updates stop if you end your membership, and you'll lose access to the
+    community.
+  </p>
+</div>
+
+<style lang="scss">
+  @use "../style/responsive" as r;
+
+  #prices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    @include r.mobile {
+      grid-template-columns: 1fr;
+      margin: 2rem auto;
+      max-width: 400px;
+    }
+
+    margin: 2rem 0;
+  }
+
+  .price-details {
+    border: 2px solid var(--border);
+    background-color: var(--blue-200);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    @include r.dark {
+      box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  @include r.mobile {
+    #gold {
+      margin-top: 2rem;
+    }
+  }
+
+  h3 {
+    border-bottom: 2px solid var(--border);
+    margin-top: 0;
+    text-align: center;
+  }
+
+  ul {
+    list-style-position: inside;
+    margin-top: 1rem;
+    padding-left: 0.1rem;
+    li {
+      text-indent: 1.1rem hanging;
+      // padding-left: 1.5rem;
+      + li {
+        margin-top: 0.3rem;
+      }
+    }
+  }
+</style>

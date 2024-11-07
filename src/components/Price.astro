@@ -1,5 +1,5 @@
 <div>
-  <h1>Let's do business</h1>
+  <h1>Let’s do business</h1>
 
   <p>
     The system is currently in development. You are invited to join us in the
@@ -9,27 +9,29 @@
   <p>
     Both membership tiers include instant access to all existing Johnny.Decimal
     products. If you choose the <em>Gold</em> plan, you get access to anything we
-    release while you're a member.
+    release while you’re a member.
   </p>
 
   <div id="prices">
-    <div id="platinum" class="price-details">
-      <h3><em>Platinum</em></h3>
-      <img src="/img/qf-platinum-light.jpg" />
-      <!-- <img src="/img/ezgif-3-4df67e170f.gif" /> -->
-      <ul>
-        <li>
-          <strong>Lifetime</strong> access.
-        </li>
-        <li>All updates, forever.</li>
-        <li>Community access, forever.</li>
-        <li>
-          Exclusive low price: only <span class="alt-digits">2</span>× Gold
-          while in pre-launch.
-        </li>
-      </ul>
-      <h1 class="alt-digits">$300</h1>
-    </div>
+    <a href="https://store.johnnydecimal.com/cart/43063017111688:1">
+      <div id="platinum" class="price-details">
+        <h3><em>Platinum</em></h3>
+        <img src="/img/qf-platinum-light.jpg" />
+        <!-- <img src="/img/ezgif-3-4df67e170f.gif" /> -->
+        <ul>
+          <li>
+            <strong>Lifetime</strong> access.
+          </li>
+          <li>All updates, forever.</li>
+          <li>Community access, forever.</li>
+          <li>
+            Exclusive low price: only <span class="alt-digits">2</span>× Gold
+            while in pre-launch.
+          </li>
+        </ul>
+        <h1 class="alt-digits">$300</h1>
+      </div>
+    </a>
 
     <div id="gold" class="price-details">
       <h3><em>Gold</em></h3>
@@ -44,12 +46,6 @@
   </div>
   <p class="price-note">
     All prices in US dollars. You may choose your local currency at checkout.
-  </p>
-
-  <p>
-    You'll never lose access to your existing system: but with <em>Gold</em>,
-    updates stop if you end your membership, and you'll lose access to the
-    community.
   </p>
 </div>
 
@@ -68,6 +64,19 @@
       margin: 2rem auto;
       max-width: 400px;
     }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    ul {
+      li {
+        list-style-type: none;
+        padding-left: none;
+        text-indent: 0px;
+      }
+    }
   }
 
   .price-details {
@@ -83,11 +92,12 @@
 
   #platinum,
   #gold {
-    // transition: background 1s ease-in-out; /* Smooth transition */
+    transition:
+      background 1s ease-in-out,
+      background-position-x 1s ease-in-out; /* Smooth transition to gradient and background position */
   }
 
   #platinum:hover {
-    transition: background 0.4s ease-in-out;
     background: linear-gradient(-45deg, #e8e8e8 40%, #f7f7f7 50%, #e2e2e2 60%);
     background-size: 300%;
     background-position-x: 100%;
@@ -95,16 +105,18 @@
   }
 
   #gold:hover {
-    transition: background 0.4s ease-in-out;
-    background: linear-gradient(-45deg, #f0e6b8 40%, #f7eec1 50%, #f3e1a8 60%);
+    background: linear-gradient(45deg, #f0e6b8 40%, #f7eec1 50%, #f3e1a8 60%);
     background-size: 300%;
     background-position-x: 100%;
     animation: shimmer 2s infinite alternate ease-in-out;
   }
 
   @keyframes shimmer {
-    to {
+    0% {
       background-position-x: 0%;
+    }
+    100% {
+      background-position-x: 100%;
     }
   }
 

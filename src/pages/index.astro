@@ -1,20 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.astro";
-import CenteringGrid from "../layouts/CenteringGrid.astro";
-
+import Image from "../components/Image.astro";
 import HR from "../components/HR.astro";
-import IntroColumns from "../components/IntroColumns.astro";
 
+import CenteringGrid from "../layouts/CenteringGrid.astro";
+import Header from "../components/Header.astro";
+import IntroColumns from "../components/IntroColumns.astro";
 import Home_GlobalStandard from "../components/words/Home_GlobalStandard.mdx";
 import Home_OpsManual from "../components/words/Home_OpsManual.mdx";
 import Home_Community from "../components/words/Home_Community.mdx";
 import Home_Efficient from "../components/words/Home_Efficient.mdx";
-
 import Price from "../components/Price.astro";
+import FAQ from "../components/words/Home_FAQ.mdx";
 import Footer from "../components/Footer.astro";
-
-import Image from "../components/Image.astro";
 
 // Test
 // import TestLinks from "../components/TestLinks.astro";
@@ -66,6 +64,12 @@ import Image from "../components/Image.astro";
 
   <CenteringGrid padded>
     <Price />
+  </CenteringGrid>
+
+  <HR />
+
+  <CenteringGrid padded>
+    <FAQ />
   </CenteringGrid>
 
   <CenteringGrid padded>

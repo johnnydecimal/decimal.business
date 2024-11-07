@@ -3,12 +3,34 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import CenteringGrid from "../layouts/CenteringGrid.astro";
 
-import HomePageWords from "./homepagewords.mdx";
+import HR from "../components/HR.astro";
+import IntroColumns from "../components/IntroColumns.astro";
+
+import Home_GlobalStandard from "../components/words/Home_GlobalStandard.mdx";
+import Home_OpsManual from "../components/words/Home_OpsManual.mdx";
+
+import Image_Book from "../components/images/Book.astro";
 ---
 
 <Layout>
-  <Header />
-  <CenteringGrid>
-    <HomePageWords />
+  <CenteringGrid padded>
+    <Header />
+  </CenteringGrid>
+  <CenteringGrid padded>
+    <IntroColumns />
+  </CenteringGrid>
+
+  <HR />
+
+  <CenteringGrid padded>
+    <Home_GlobalStandard />
+  </CenteringGrid>
+
+  <CenteringGrid width="800">
+    <Image_Book />
+  </CenteringGrid>
+
+  <CenteringGrid padded>
+    <Home_OpsManual />
   </CenteringGrid>
 </Layout>

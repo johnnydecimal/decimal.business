@@ -1,22 +1,30 @@
 ---
-
+const classList = Astro.props.classList || "";
+const padding = Astro.props.padded ? "5vw" : "0";
+const width = `${Astro.props.width || 600}px`;
 ---
 
-<div class="grid-container">
-  <div class="grid-600">
-    <p>Hi I am a paragraph. I will be `slot`.</p>
+<div
+  class=`grid-container ${classList}`
+  style={`--padding: ${padding}; --width: ${width}`}
+>
+  <div class="grid">
     <slot />
   </div>
 </div>
 
 <style lang="scss">
+  @use "../style/responsive" as r;
+
   .grid-container {
-    border: 1px dotted hotpink;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: var(--width);
+
+    @include r.mobile {
+      padding: var(--padding);
+    }
 
     .grid {
-      border: 1px dashed yellow;
       display: grid;
     }
   }

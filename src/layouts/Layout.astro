@@ -30,6 +30,7 @@ const { title } = Astro.props;
 
 <style is:global lang="scss">
   @use "../style/reset.css";
+  @use "../style/responsive" as r;
 
   html {
     background-color: #fbfcfd;
@@ -47,7 +48,22 @@ const { title } = Astro.props;
     // padding: 0 20px;
   }
 
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    margin: 1rem 0;
+  }
+
   p {
     font-size: 20px;
+    + p {
+      margin-top: 1em;
+    }
+  }
+
+  section[data-footnotes] {
+    display: none;
   }
 </style>

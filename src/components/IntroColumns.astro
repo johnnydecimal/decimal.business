@@ -1,71 +1,93 @@
-<div class="masonry-with-columns">
-  <div>
-    <h2>A global standard</h2>
-    <p>
-      The Johnny.Decimal Small Business System provides a structured,
-      opinionated method to organize everything in a business, creating a
-      universal 'catalogue' for all files, tasks, and items.
-    </p>
-    <p>
-      By assigning each item a unique ID, it simplifies storage, retrieval, and
-      communication, eliminating inefficiency and decision fatigue.
-    </p>
+<div id="intro-columns">
+  <div id="first-column">
+    <div id="global-standard">
+      <h2>A global standard</h2>
+      <p>
+        The Johnny.Decimal Small Business System provides a structured,
+        opinionated method to organize everything in a business, creating a
+        universal ‘catalogue’ for all files, tasks, and items.
+      </p>
+      <p>
+        By assigning each item a unique ID, it simplifies storage, retrieval,
+        and communication, eliminating inefficiency and decision fatigue.
+      </p>
+    </div>
+    <div id="getting-stuff-done">
+      <h2>Getting stuff done</h2>
+      <p>
+        There are places online where people gather to discuss get-rich-quick
+        schemes.
+      </p>
+      <p>This is not one of them.</p>
+      <p class="bottom-para-no-margin-desktop">
+        This is a place to get <strong>real work done</strong>. This is a place
+        for people who are <strong>executing their idea</strong>, not for those
+        who are still dreaming.
+      </p>
+    </div>
   </div>
-  <div>
-    <h2>Getting stuff done</h2>
-    <p>
-      There are places online where people gather to discuss get-rich-quick
-      schemes.
-    </p>
-    <p>This is not one of them.</p>
-    <p>
-      This is a place to get <strong>real work done</strong>. This is a place
-      for people who are <strong>executing their idea</strong>, not for those
-      who are still dreaming.
-    </p>
-  </div>
-  <div>
-    <h2>Be organised</h2>
-    <p>Business is hard.</p>
-    <p>Filing things is harder!</p>
-    <p>
-      The Johnny.Decimal System tackles the chaos of business by bringing order
-      to everything—files, emails, tasks, notes—so you always know where things
-      belong and can stay focused on what matters.
-    </p>
-  </div>
-  <div>
-    <h2>Your operations manual</h2>
-    <p>
-      McDonald's success comes from standardized operations manuals that ensure
-      consistency worldwide.
-    </p>
-    <p>
-      The Johnny.Decimal Small Business System applies this concept to everyday
-      business tasks, providing clear, shared documentation to streamline
-      routine processes like IT backups, so you can focus on what makes your
-      business unique.
-    </p>
+  <div id="second-column">
+    <div id="be-organised">
+      <h2>Business is hard</h2>
+      <p>Filing things is harder!</p>
+      <p>
+        The Johnny.Decimal System tackles the chaos of business by bringing
+        order to everything—files, emails, tasks, notes—so you always know where
+        things belong and can stay focused on what matters.
+      </p>
+    </div>
+    <div id="ops-manual">
+      <h2>Your ops manual</h2>
+      <p>
+        McDonald’s success comes from standardized operations manuals that
+        ensure consistency worldwide.
+      </p>
+      <p class="bottom-para-no-margin">
+        The Johnny.Decimal Small Business System applies this concept to
+        everyday business tasks, providing clear, shared documentation to
+        streamline routine processes like IT backups, so you can focus on what
+        makes your business unique.
+      </p>
+    </div>
   </div>
 </div>
 
-<style>
-  .masonry-with-columns {
-    columns: 2;
-    column-gap: 2rem;
-    div {
-      width: 150px;
-      margin: 0 1rem 1rem 0;
-      display: inline-block;
-      width: 100%;
+<style lang="scss">
+  @use "../style/responsive" as r;
+
+  #intro-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    @include r.mobile {
+      grid-template-columns: 1fr;
     }
-  }
 
-  h2 {
-    font-size: 24px;
-  }
+    h2 {
+      margin-bottom: 1rem;
+      @include r.mobile {
+        font-size: 2rem;
+        text-align: center;
+      }
+    }
+    p {
+      margin: 1rem 0;
 
-  p {
-    font-size: 20px;
+      // For consistency of spacing around the ≡ divider
+      &.bottom-para-no-margin {
+        margin-bottom: 0;
+      }
+      @include r.desktop {
+        &.bottom-para-no-margin-desktop {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    #getting-stuff-done > h2,
+    #ops-manual > h2 {
+      margin-top: 2rem;
+    }
   }
 </style>

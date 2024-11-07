@@ -9,18 +9,15 @@ import IntroColumns from "../components/IntroColumns.astro";
 import Home_GlobalStandard from "../components/words/Home_GlobalStandard.mdx";
 import Home_OpsManual from "../components/words/Home_OpsManual.mdx";
 import Home_Community from "../components/words/Home_Community.mdx";
+import Home_Efficient from "../components/words/Home_Efficient.mdx";
 
 import Image from "../components/Image.astro";
 
 // Test
-import TestLinks from "../components/TestLinks.astro";
+// import TestLinks from "../components/TestLinks.astro";
 ---
 
 <Layout>
-  <CenteringGrid padded>
-    <TestLinks />
-  </CenteringGrid>
-
   <CenteringGrid padded>
     <Header />
   </CenteringGrid>
@@ -52,5 +49,9 @@ import TestLinks from "../components/TestLinks.astro";
 
   <CenteringGrid width="800">
     <Image src="kneading-dough.jpg" />
+  </CenteringGrid>
+
+  <CenteringGrid padded>
+    <Home_Efficient />
   </CenteringGrid>
 </Layout>

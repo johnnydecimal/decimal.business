@@ -10,13 +10,13 @@ const darkSrc = src.replace(".", "-dark.");
 
 <!-- <img src=`/img/${src}` width="800" /> -->
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset={lightSrc} />
-  <source media="(prefers-color-scheme: dark)" srcset={darkSrc} />
-  <img src={src} width="800" />
+  <source media="(prefers-color-scheme: light)" srcset=`/img/${lightSrc}` />
+  <source media="(prefers-color-scheme: dark)" srcset=`/img/${darkSrc}` />
+  <img src={`/img/${src}`} width="800" />
 </picture>
 
 <style lang="scss">
-  @use "../../style/responsive" as r;
+  @use "../style/responsive" as r;
 
   img {
     border: 2px solid #459cae;

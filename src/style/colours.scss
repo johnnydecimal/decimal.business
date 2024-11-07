@@ -1,0 +1,9 @@
+:root {
+  --background: #fcfdfe;
+  --text: #1f464e;
+
+  @media (prefers-color-scheme: dark) {
+    --background: #11262a;
+    --text: #e8f4f6;
+  }
+}

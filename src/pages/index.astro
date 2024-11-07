@@ -9,7 +9,7 @@ import IntroColumns from "../components/IntroColumns.astro";
 import Home_GlobalStandard from "../components/words/Home_GlobalStandard.mdx";
 import Home_OpsManual from "../components/words/Home_OpsManual.mdx";
 
-import Image_Book from "../components/images/Book.astro";
+import Image from "../components/Image.astro";
 ---
 
 <Layout>
@@ -27,10 +27,18 @@ import Image_Book from "../components/images/Book.astro";
   </CenteringGrid>
 
   <CenteringGrid width="800">
-    <Image_Book />
+    <Image src="notebook-desk.jpg" />
   </CenteringGrid>
 
   <CenteringGrid padded>
     <Home_OpsManual />
+  </CenteringGrid>
+
+  <CenteringGrid width="800">
+    <Image src="smallbusiness-checklist.jpg" />
+  </CenteringGrid>
+
+  <CenteringGrid width="800">
+    <Image src="kneading-dough.jpg" />
   </CenteringGrid>
 </Layout>

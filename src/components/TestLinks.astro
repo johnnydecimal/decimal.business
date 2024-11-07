@@ -1,0 +1,18 @@
+---
+const randomString = Math.random().toString(36).substring(2, 14);
+---
+
+<h1>== TEST LINKS ==</h1>
+
+<p>
+  This is a link <a href=`http://${randomString}.com`
+    >that has never, and will never, be visited</a
+  >. In the context of a paragraph.
+</p>
+
+<p>
+  And this <a href="https://johnnydecimal.com">is a link to your own website</a
+  >, which of course has been visited.
+</p>
+
+<h1>== ENDS TEST LINKS</h1>

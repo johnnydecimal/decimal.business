@@ -1,10 +1,10 @@
 ---
 interface Props {
   fnref: string;
-  text: string;
+  html: string;
 }
 
-const { fnref, text, html } = Astro.props;
+const { fnref, html } = Astro.props;
 
 const innerHtml = `${html} <a class="fn-return" href="#fn-ref-${fnref}"}>⇡</a>`;
 ---
@@ -21,7 +21,7 @@ const innerHtml = `${html} <a class="fn-return" href="#fn-ref-${fnref}"}>⇡</a>
     list-style-position: inside;
     margin: 0.5rem 0;
     padding-left: 0.9rem;
-    text-indent: -0.85rem;
+    text-indent: -0.9rem;
     a.fn-return {
       color: var(--text);
       font-size: 0.7rem;

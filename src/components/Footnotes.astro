@@ -6,13 +6,29 @@ import FootnoteItem from "./FootnoteItem.astro";
   <h2>Footnotes</h2>
   <ol>
     <FootnoteItem
-      fnref="opinionated"
+      fnref="dewey"
       html="Vs. the standard, which is the (imperfect, but nevertheless standard) <a href='https://yeah'>Dewey Decimal Classification</a>."
     />
-    <FootnoteItem fnref="maccas" text="We do (love them)." />
+    <FootnoteItem
+      fnref="opinionated"
+      html="In programming, ‘opinionated’ means that a language or tool enforces specific conventions and design patterns, guiding users towards a particular way of doing things. Opinionated tools make assumptions about how best to organise code or structure projects, often reducing flexibility but offering a streamlined experience that can simplify development and reduce decision fatigue."
+    />
+    <FootnoteItem fnref="maccas" html="We do (love them)." />
+    <FootnoteItem
+      fnref="ops-manuals"
+      html="These will be developed over time, in a democratic process: we’ll ask the community what you need next, and prioritise accordingly."
+    />
+    <FootnoteItem
+      fnref="palm"
+      html="I did, because I was a nerd. I had the first <a href='https://en.wikipedia.org/wiki/PalmPilot'>PalmPilot</a>. It didn’t do much."
+    />
+    <FootnoteItem
+      fnref="work-days"
+      html="Assuming a humane 240 working days: 48 weeks at 5 days/week."
+    />
+
+    <style lang="scss">
+      @use "../style/responsive" as r;
+    </style>
   </ol>
 </div>
-
-<style lang="scss">
-  @use "../style/responsive" as r;
-</style>

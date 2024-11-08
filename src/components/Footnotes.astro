@@ -26,9 +26,16 @@ import FootnoteItem from "./FootnoteItem.astro";
       fnref="work-days"
       html="Assuming a humane 240 working days: 48 weeks at 5 days/week."
     />
-
-    <style lang="scss">
-      @use "../style/responsive" as r;
-    </style>
   </ol>
 </div>
+
+<style lang="scss">
+  @use "../style/responsive" as r;
+
+  #footnotes {
+    h2 {
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+    }
+  }
+</style>

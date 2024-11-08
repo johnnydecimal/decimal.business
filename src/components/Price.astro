@@ -102,6 +102,17 @@
     background-size: 300%;
     background-position-x: 100%;
     animation: shimmer 2s infinite alternate ease-in-out;
+    @include r.dark {
+      background: linear-gradient(
+        -45deg,
+        #707070 40%,
+        #909090 50%,
+        #5a5a5a 60%
+      );
+      background-size: 300%;
+      background-position-x: 100%;
+      animation: shimmer 2s infinite alternate ease-in-out;
+    }
   }
 
   #gold:hover {
@@ -109,6 +120,12 @@
     background-size: 300%;
     background-position-x: 100%;
     animation: shimmer 2s infinite alternate ease-in-out;
+    @include r.dark {
+      background: linear-gradient(45deg, #a67c00 40%, #b58900 50%, #8a6e00 60%);
+      background-size: 300%;
+      background-position-x: 100%;
+      animation: shimmer 2s infinite alternate ease-in-out;
+    }
   }
 
   @keyframes shimmer {

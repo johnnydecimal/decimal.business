@@ -1,0 +1,244 @@
+# Meta
+- Created: 2014-12-09
+- Last reviewed: 2015-05-05 23:00
+## Time log
+- 0.5h 2015-05-05 23:00
+
+# Define the product.todo
+- What does the product actually do?
+- What need does it fill?
+- Why does this need exist?
+
+# What does the product actually do?
+- It's your ultimate start-your-business helper
+- It breaks each business - any business - down to its component parts - these are "boxes", and represent jobs/tasks/areas that you need to complete in order for your business to be successful
+- It gives you the tools, knowledge, and framework to complete each of these boxes (i.e. to get each job done)
+- It puts you in the state of mind to allow you to focus on each box
+- It gives you a place to keep all information relating to each box
+- It tells you what you need to start working on each box, and tells you what the outcome of your work session should be
+- It tells you how long you should spend on each of these boxes, per week/month
+- It tracks your progress, and alerts you when you're behind with any of your boxes
+- It becomes a live, updating business plan
+- It gives you simple, effective tools
+- It gathers the collected wisdom to date and allows you to use it in your business so that you don't have to re-invent the wheel
+    - e.g. running a meeting - meeting minute templates
+
+# What need does it fill?
+- People start businesses knowing very little about what is actually involved
+- Their expertise in one area - usually in the production of the thing they're selling - does not guarantee success of the business
+- Why do businesses fail? Because the basics aren't done. We cover the basics, and ensure that you do them
+
+# Why does this need exist?
+- Because running a business is hard and complex
+- Because professional advice is expensive
+- Because professional advice is difficult to find in one place, and generally difficult to find reliably - who do you trust?
+
+---
+
+It's also a mini course. What are your tax implications? What does it all mean? Sit down for an hour and we'll teach you. 
+
+Then you get a customised tax calendar, feeding in to cashflow, depending on your business' incorporation date!
+
+---
+
+How does the system find gaps in itself? Be self referential. If people ask you questions about it, why doesn't it have the answer?
+
+Need a box for mentor/guide/support/inspiration. Meetup. 
+
+Downtime. Relaxation. Reflection. Category: wellness. 
+
+For Saturday: assume this is all possible. No doubting whether it can be done: more, when it *is* done, is it valuable?
+
+---
+
+1) Market Analysis and Research
+2) Vision & Unique Selling Point
+3) Competitor Analysis
+4) SWOT analysis
+5) Profitability and Cashflow Budget
+6) Startup Costs Breakdown
+7) Labour and Capacity Analysis
+8) Risk Analysis (including OH&S)
+9) Exit Strategy
+10) Legal, Accounting Setups and Business Registrations
+http://www.flyingsolo.com.au/forums/index.php?threads/starting-a-business-read-if-you-dare.14807/
+
+---
+
+# Job to be done.todo
+- Who might be interested; define the customer @done(2015-05-05)
+- How many of these people are there; where are they; who are they @done(2015-05-05)
+- Is there an appetite for this? Do people know that they want?
+- What would people pay? What do existing services cost and what do they offer? @done(2015-05-05)
+- Where are your customers? Potential markets?
+
+# Who might be interested?
+## Anyone starting a business
+- Zero to ten employees seems like a given
+- 10-50 employees might be getting "advanced" (but the frameworks we've put in place absolutely still guide you)
+- 50+ is not your target audience; by now you should be mature enough to have experts in positions for each of the boxes; by nature, you don't need us
+- v2 features to expand to 50+ businesses
+
+## Define the customer
+- Someone starting a small business of any type
+- Someone who has never been in business before
+- Someone who does not have all of the skills to start a business (but doesn't necessarily know it)
+
+## How many of these people are there?
+- "Of the 294,210 new business entries during the 2010-11 financial year..."
+- The release showed the vast majority (97 per cent) of Australian businesses in June 2014 were small businesses.
+- Other good stats re: number of businesses still active a number of years later
+    - [reference](http://www.abs.gov.au/ausstats/abs@.nsf/mediareleasesbytitle/950EC94DB899312ECA2573B00017B8F4?OpenDocument)
+- 1% of these at $10/mo = $352,800/year
+- 2% of these at $30/mo = $2,116,800/year
+- This is just Australia
+
+## Is there an appetite for this?
+- How would you know this? Needs further analysis
+
+## What would people pay?
+- Current subscription services cost anything from $10-$50+/mo
+- It seems reasonable that a stratified plan from $0/mo to $50+/mo would be viable
+
+## What are the potential markets?.todo
+- Types of business?
+
+# What do people actually need?
+Research taken from browsing the "[Starting a business](http://www.flyingsolo.com.au/forums/index.php?forums/starting-a-business.17/)" forum
+
+1. Lots of people [who](http://www.flyingsolo.com.au/forums/index.php?threads/feedback-would-be-awesome.34346/) [really](http://www.flyingsolo.com.au/forums/index.php?threads/in-need-of-wholesalers-starting-a-womans-clothing-online-store.33947/) [have](http://www.flyingsolo.com.au/forums/index.php?threads/help-help-help.34452/) [no](http://www.flyingsolo.com.au/forums/index.php?threads/starting-bookkeeping-firm.34478/) [idea](http://www.flyingsolo.com.au/forums/index.php?threads/what-do-you-think.34297/)
+2. 
+
+---
+
+# Meta
+- Last reviewed: 2015-05-05 21:51
+## Time log
+- 0.5h 2015-05-05 22:04
+
+# Job to be done.todo
+- Determine if this has been done before, in any shape or form no matter how crap; get a list of any other competitors @done(2015-05-05)
+- Find out how much they cost @done(2015-05-05)
+
+# Findings
+## Monitoring dashboards
+- Search "new business dashboard"
+- There's a heap of "monitoring" dashboards
+    - http://www.cyfe.com
+    - https://www.geckoboard.com
+- They're about "datasets"
+    - http://www.klipfolio.com/guide-to-business-dashboards
+
+## Frameworks
+- Search "start business framework"
+    - http://toolkit.smallbiz.nsw.gov.au/userinfo
+        - HOLY FUCKING SHIT this is bad
+        - It's on the first page of Google
+    - Everything else is just .gov help; all crap
+    - http://www.mybusinessconnect.com.au/?b=bsa
+    - https://www.planhq.com/try_planhq
+        - The landing page looks like it might be a competitor - but then click on one of the "get started" links and it soon becomes very disappointing
+        - This is the closest, on first glance
+        - They're "almost, but no cigar" - they're not even a smoker
+        - And if you're not a BankSA customer, you have to pick from all of this shit
+            - https://bsa.mybusinessconnect.com.au/app/ssprovision.do?planhq_guest_token=RxcRM5WthNwDrfpNqc7g
+        - $35/mo for a bunch of those plans (3 of them, at least, to get it all)
+
+## Other
+- http://myob.com.au/blog/i-am-a-small-business-getting-big-how-do-i-manage-my-growth/
+    - Generic, generic advice; nothing useful *at all*
+- Can't remember how I found this - fucking expensive! And basically just some crappy books and "advice", when it boils down to it
+    - http://www.healthynumbers.com.au/our_products/getting-startups-started/
+- Also shite
+    - http://onlinebeginnershub.com
+    - Yet, "I'm starting a new online retail business and have been searching online ALOT for something like this. I would however probably not spend more then $500 in my starting out phase." [ref](http://www.flyingsolo.com.au/forums/index.php?threads/feedback-please-program-to-help-new-business-get-started.33852/#post-209596)
+    - Looking to become something like what you're thinking about, but the PDF you got emailed (2015-05-09 20:07) looks fucking appaling
+
+
+## "Tools to manage my business"
+- Leads you to social media; Telstra (your account); ANZ
+
+# Summary
+Unless it's all extraordinarily hard to find, this absolutely has not been done before.
+
+# Next steps.todo
+- Why hasn't it been done before?
+
+---
+
+Go meta. Apply all the ideas of BIAB to BIAB. i.e. Is it viable, business plan, etc
+
+http://www.nerdwallet.com/ is nice, what can we take?
+
+Do some actual analysis on how long it takes people to find something via search via J.D folders or whatever. You just watched Vishal look for a file that would have taken you ten seconds to find and it took him a minute and he was frustrated.
+
+Another handy hint: meeting template. Just record time, attendance, five key points. That is all.  But do it every time. 
+
+OOOOHH and publish a TX list that people subscribe to! ;;meeting! Then you can update it too, whenever. 
+
+And yes, we only support Mac. 
+
+# THERE IS AN ORDER #
+
+1. Business plan
+    2. Is my business viable
+    3. Other stuff before you start
+4. Then we move on to ABNs and financing etc.
+5. 
+
+# Homework
+- Sami to ask her hub what they would pay for the services they've had so far
+
+Randomly give 5% of new customers a free membership. In return they agree to give you a bit of data to help you market yourself. Imagine being able to say that 65% of BIAB customers are successful vs. a baseline of 33%. That there is solid gold.
+
+Write down every tool you use and how it can fit in to the system. Ask Sami and Tim to do the same. 
+
+Build it in Dokuwiki. Use the collections thing to group high level things. 
+
+Ask people for each bit "do you mind doing this?", just a quick rating. e.g. I hate bookkeeping, does knowing that I don't like it influence how we make it behave for you? Try to tailor the system to the individual. Maybe we sandwich the crap (your crap; another man's heaven) between some fun stuff?
+
+- Recurring transactions: track them, know how much goes out each month
+- They keep recurring, so they affect cashflow
+
+Holy shit tie pomodoro in to the site. You start a thing; we focus you, present what you need; we make it hard/guilty for you to go back to anything else for 20 minutes. Do your books, man! And we track how long you spend doing each thing, for your own feedback & improvement. 
+
+Mock this shit up & present a whole package to the kids on the projector. Present, not discuss. Then Q&A. Alex as well. Get a wireframe thing for Keynote. Do it all in there. Print out slides with places for them to write notes.
+
+Demo of ;;meeting. nvALT. Create then find. And do an *asterisk wiki demo to a FAQ about why we use JPDATE. In real like that might be a float-over, just demo the *concept*. 
+
+Create J.D folder structures for Sami & Tim. But they *can not* add new folders without your authorisation - stress to them the importance of the "problem management" aspect of this, it has to feed back in to the system. For fun, can you set up a script which feeds in to IFTTT? (It's a shared Dropbox folder.)
+
+# Become a VC for the people
+- You invest $5k
+- We seed the money
+- You're buying in to BiaB
+- We give the money to the people that we help
+- They grow
+- You own part of us, we own part of them
+- Microloans for the people
+- VC for the people
+- 1% gets more valuable
+- "There are a lot of people out there with $5k to throw in"
+- You need a success story, someone to sell
+- We reserve you 1% but you pay it off monthly
+- This gives us recurring revenue
+- Dual subscription - investors & customers
+
+- Embrace text as a primary input method. It's "geeky" for you, but how much more geeky is it than using Word, which everyone else does? Frame it like that. Word, file, save, vs. nvALT, which is *really* easier? Putting asterisks round text to make it emphasised, easier and quicker than remembering Cmd+i or moving your mouse.
+- What else can you embrace in the "recommended tools" section? Alfred feels obvious. Just don't go crazy on these things; perhaps drip-feed them, introduce them a thing at a time.
+- Good question for the intro survey, then: Mac or PC, iOS or Andriod, etc.
+- But be careful to balance *core* stuff vs. *nice to have* ... you have to be making people's lives easier or you've failed
+- Maybe it's a "should" box for the week: "Learn/improve some IT skills" - it is critical, really, for modern life. It is an advantage in business
+- Mentor could be worth $ - instead of investing $10k for 2%, you invest x hours
+- flyer town, find businesses, variety, use them as test cases - get heaps variety
+
+- Knock up v1 on dokuwiki or the like
+- Simple email feedback with JJ.DD in the subject line will do for now
+- Think quick 'n easy to get Sabrina's candle business online
+- Biab: what's one thing per box you learned this month, eg how do capture the "you'll go through your glassware once a month " thing 
+
+Check out the definition of a "sophisticated investor" on ASIC, via Luke. 
+
+Getting an ABN: might pay to hold off for a while, ref. Level UP!
+
+Each task - box - can be allocated. Maybe to a team member. 25 boxes (5x5) x 4h = 2 people so how does the org know who is doing what? Don't overlap! It becomes a work management system 

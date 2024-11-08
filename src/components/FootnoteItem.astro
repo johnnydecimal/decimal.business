@@ -1,0 +1,35 @@
+---
+interface Props {
+  fnref: string;
+  text: string;
+}
+
+const { fnref, text } = Astro.props;
+---
+
+<li id={`fn-${fnref}`}>
+  {text}
+  <a href={`#fn-ref-${fnref}`}>⇡</a>
+</li>
+
+<style lang="scss">
+  @use "../style/responsive" as r;
+  li {
+    list-style-position: inside;
+    padding-left: 1.1rem;
+    text-indent: -0.95rem;
+    a {
+      color: var(--text);
+      font-size: 0.7rem;
+      text-decoration: none;
+      vertical-align: super;
+      &:hover,
+      &:visited,
+      &:hover:visited,
+      &:active {
+        background-color: var(--background);
+        color: var(--text);
+      }
+    }
+  }
+</style>

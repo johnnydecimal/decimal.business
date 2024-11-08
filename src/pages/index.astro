@@ -12,6 +12,7 @@ import Home_Community from "../components/words/Home_Community.mdx";
 import Home_Efficient from "../components/words/Home_Efficient.mdx";
 import Price from "../components/Price.astro";
 import FAQ from "../components/words/Home_FAQ.mdx";
+import Footnotes from "../components/Footnotes.astro";
 import Footer from "../components/Footer.astro";
 
 // Test
@@ -69,10 +70,38 @@ import Footer from "../components/Footer.astro";
   <HR />
 
   <CenteringGrid padded>
-    <FAQ />
+    <div id="faq-container">
+      <FAQ />
+    </div>
+  </CenteringGrid>
+
+  <CenteringGrid width="800">
+    <Image src="handing-over-a-box.jpg" />
+  </CenteringGrid>
+
+  <CenteringGrid padded>
+    <div id="footnotes-container">
+      <Footnotes />
+    </div>
   </CenteringGrid>
 
   <CenteringGrid padded>
     <Footer />
   </CenteringGrid>
 </Layout>
+
+<style lang="scss" is:global>
+  @use "../style/responsive" as r;
+
+  #faq-container {
+    h2:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  #footnotes-container {
+    h2 {
+      margin-top: 0;
+    }
+  }
+</style>

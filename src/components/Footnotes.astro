@@ -1,7 +1,17 @@
 ---
-
+import FootnoteItem from "./FootnoteItem.astro";
 ---
 
 <div id="footnotes">
   <h2>Footnotes</h2>
+  <ol>
+    <FootnoteItem
+      fnref="maccas"
+      text="We do (love them). Do non proident cillum ut ex cillum sint nisi. Dolore magna quis aliqua ipsum est laborum tempor eu duis elit anim magna mollit esse. Irure ut ipsum irure esse occaecat esse amet labore ea."
+    />
+  </ol>
 </div>
+
+<style lang="scss">
+  @use "../style/responsive" as r;
+</style>

@@ -4,21 +4,25 @@ interface Props {
   text: string;
 }
 
-const { fnref, text } = Astro.props;
+const { fnref, text, html } = Astro.props;
+
+const innerHtml = `${html} <a class="fn-return" href="#fn-ref-${fnref}"}>⇡</a>`;
 ---
 
-<li id={`fn-${fnref}`}>
-  {text}
-  <a href={`#fn-ref-${fnref}`}>⇡</a>
-</li>
+<li class="fn-item" id={`fn-${fnref}`} set:html={innerHtml} />
 
-<style lang="scss">
+<style lang="scss" is:global>
+  // Careful here. This is:global otherwise our set:html anchor styling
+  // doesn't apply. So be real specific.
+
   @use "../style/responsive" as r;
-  li {
+  li.fn-item {
+    font-size: 0.9rem;
     list-style-position: inside;
-    padding-left: 1.1rem;
-    text-indent: -0.95rem;
-    a {
+    margin: 0.5rem 0;
+    padding-left: 0.9rem;
+    text-indent: -0.85rem;
+    a.fn-return {
       color: var(--text);
       font-size: 0.7rem;
       text-decoration: none;

@@ -8,8 +8,8 @@
 
   <p>
     Both membership tiers include instant access to all existing Johnny.Decimal
-    products. If you choose the <em>Gold</em> plan, you get access to anything we
-    release while you’re a member.
+    products. Platinum membership is for life. If you choose the <em>Gold</em> plan,
+    you get access to anything we release while your membership is current.
   </p>
 
   <div id="prices">
@@ -40,7 +40,7 @@
             while in pre-launch.
           </li>
         </ul>
-        <h1 class="alt-digits">$300</h1>
+        <p class="alt-digits">$300</p>
       </div>
     </a>
 
@@ -64,11 +64,12 @@
         <li>Updates & community access while membership current.</li>
         <li>Renewal price locked in: will increase when launched.</li>
       </ul>
-      <h1 class="alt-digits">$150</h1>
+      <p class="alt-digits">$150</p>
     </div>
   </div>
   <p class="price-note">
-    All prices in US dollars. You may choose your local currency at checkout.
+    All prices in US dollars. Choose your local currency at checkout. Afterpay
+    available.
   </p>
 </div>
 
@@ -160,8 +161,12 @@
     }
   }
 
-  .alt-digits {
+  p.alt-digits {
+    font-size: 3.5rem;
+    font-weight: 700;
     font-variant-numeric: lining-nums;
+    margin-bottom: 1rem;
+    text-align: center;
   }
 
   .price-note {
@@ -176,21 +181,16 @@
     }
   }
 
-  h1 {
-    border: 0;
-    font-size: 3rem;
-    text-align: center;
-  }
-
   h2 {
     // border-bottom: 2px solid var(--border);
+    font-size: 2.2rem;
     margin-top: 0;
     text-align: center;
   }
 
   ul {
     list-style-position: inside;
-    height: 180px;
+    height: 170px;
     margin-top: 1rem;
     padding-left: 0.1rem;
     li {

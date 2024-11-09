@@ -16,13 +16,19 @@
     <a href="https://store.johnnydecimal.com/cart/43063017111688:1">
       <div id="platinum" class="price-details">
         <h2><em>Platinum</em></h2>
-        <!-- <img src="/img/qf-platinum-light.jpg" /> -->
-        <!-- <img src="/img/ezgif-3-4df67e170f.gif" /> -->
-        <!-- <img src="/img/IMG_4777.PNG" /> -->
-        <img
-          src="/img/Untitled_Artwork.png"
-          style="border: 1px solid darkgrey;"
-        />
+
+        <picture>
+          <source
+            media="(prefers-color-scheme: light)"
+            srcset="/img/platinum-light.png"
+          />
+          <source
+            media="(prefers-color-scheme: dark)"
+            srcset="/img/platinum-dark.png"
+          />
+          <img src="/img/platinum-light" width="100%" class="platinum" />
+        </picture>
+
         <ul>
           <li>
             <strong>Lifetime</strong> access.
@@ -40,7 +46,19 @@
 
     <div id="gold" class="price-details">
       <h2><em>Gold</em></h2>
-      <img src="/img/Gold.png" style="border: 1px solid darkgoldenrod;" />
+
+      <picture>
+        <source
+          media="(prefers-color-scheme: light)"
+          srcset="/img/gold-light.png"
+        />
+        <source
+          media="(prefers-color-scheme: dark)"
+          srcset="/img/gold-dark.png"
+        />
+        <img src="/img/gold-light" width="100%" class="gold" />
+      </picture>
+
       <ul>
         <li><strong>Annual</strong> membership.</li>
         <li>Updates & community access while membership current.</li>
@@ -182,5 +200,12 @@
         margin-top: 0.3rem;
       }
     }
+  }
+
+  img.platinum {
+    border: 1px solid darkgray;
+  }
+  img.gold {
+    border: 1px solid goldenrod;
   }
 </style>

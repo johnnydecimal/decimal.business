@@ -8,45 +8,89 @@
 
   <p>
     Both membership tiers include instant access to all existing Johnny.Decimal
-    products. If you choose the <em>Gold</em> plan, you get access to anything we
-    release while you’re a member.
+    products.
+  </p>
+  <p>
+    <strong>Platinum membership gets you everything we do, for life.</strong>
+  </p>
+  <p>
+    With Gold, you get access to anything we release while your membership is
+    current.
   </p>
 
   <div id="prices">
     <a href="https://store.johnnydecimal.com/cart/43063017111688:1">
       <div id="platinum" class="price-details">
-        <h3><em>Platinum</em></h3>
-        <img src="/img/qf-platinum-light.jpg" />
-        <!-- <img src="/img/ezgif-3-4df67e170f.gif" /> -->
+        <h2><em>Platinum</em></h2>
+
+        <picture>
+          <source
+            media="(prefers-color-scheme: light)"
+            srcset="/img/platinum-light.png"
+          />
+          <source
+            media="(prefers-color-scheme: dark)"
+            srcset="/img/platinum-dark.png"
+          />
+          <img src="/img/platinum-light.png" width="100%" class="platinum" />
+        </picture>
+
         <ul>
           <li>
             <strong>Lifetime</strong> access.
           </li>
-          <li>All updates, forever.</li>
+          <li>Everything we do, forever.</li>
           <li>Community access, forever.</li>
           <li>
             Exclusive low price: only <span class="alt-digits">2</span>× Gold
             while in pre-launch.
           </li>
         </ul>
-        <h1 class="alt-digits">$300</h1>
+        <p class="alt-digits">$300</p>
       </div>
     </a>
 
     <div id="gold" class="price-details">
-      <h3><em>Gold</em></h3>
-      <img src="/img/qf-gold-light.jpg" />
-      <ul>
-        <li><strong>Annual</strong> membership.</li>
-        <li>Updates & community access while membership current.</li>
-        <li>Renewal price locked in: will increase when launched.</li>
-      </ul>
-      <h1 class="alt-digits">$150</h1>
+      <a href="https://store.johnnydecimal.com/cart/43069054648456:1">
+        <h2><em>Gold</em></h2>
+
+        <picture>
+          <source
+            media="(prefers-color-scheme: light)"
+            srcset="/img/gold-light.png"
+          />
+          <source
+            media="(prefers-color-scheme: dark)"
+            srcset="/img/gold-dark.png"
+          />
+          <img src="/img/gold-light.png" width="100%" class="gold" />
+        </picture>
+
+        <ul>
+          <li><strong>Annual</strong> membership.</li>
+          <li>Updates & community access while membership current.</li>
+          <li>Renewal price locked in: will increase when launched.</li>
+        </ul>
+        <p class="alt-digits">$150</p>
+      </a>
     </div>
   </div>
   <p class="price-note">
-    All prices in US dollars. You may choose your local currency at checkout.
+    Prices in US dollars. Choose your local currency at checkout.
   </p>
+  <div class="payment-logos-container">
+    <picture class="payment-logos">
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="/img/payment-logos-2-light.png"
+      />
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="/img/payment-logos-2-dark.png"
+      />
+      <img src="/img/payment-logos-2-light.png" width="430" />
+    </picture>
+  </div>
 </div>
 
 <style lang="scss">
@@ -137,8 +181,12 @@
     }
   }
 
-  .alt-digits {
+  p.alt-digits {
+    font-size: 3.5rem;
+    font-weight: 700;
     font-variant-numeric: lining-nums;
+    margin-bottom: 1rem;
+    text-align: center;
   }
 
   .price-note {
@@ -154,20 +202,21 @@
   }
 
   h1 {
-    border: 0;
-    font-size: 3rem;
+    border-bottom: 0;
+    font-size: 4rem;
     text-align: center;
   }
 
-  h3 {
-    border-bottom: 2px solid var(--border);
+  h2 {
+    // border-bottom: 2px solid var(--border);
+    font-size: 2.2rem;
     margin-top: 0;
     text-align: center;
   }
 
   ul {
     list-style-position: inside;
-    height: 180px;
+    height: 170px;
     margin-top: 1rem;
     padding-left: 0.1rem;
     li {
@@ -177,5 +226,19 @@
         margin-top: 0.3rem;
       }
     }
+  }
+
+  img.platinum {
+    border: 1px solid darkgray;
+  }
+  img.gold {
+    border: 1px solid goldenrod;
+  }
+  .payment-logos-container {
+    text-align: center;
+  }
+  picture.payment-logos {
+    display: inline-block;
+    margin: 0 auto;
   }
 </style>

@@ -1,0 +1,47 @@
+<div id="quote-required-reading">
+  <p class="quote">
+    “Johnny Noble’s method should be required reading for everyone who is in
+    charge of organising digital assets of any kind. Seriously, if you’ve ever
+    needed the latest version of a file and couldn’t find it within 1–5 minutes,
+    you’ll benefit from getting familiar with Johnny.Decimal.
+  </p>
+  <p>
+    The Life Admin pack alone is one of the most valuable things I’ve ever
+    purchased.”
+  </p>
+  <p class="attribution">
+    —<a
+      href="https://ellanew.com/2023/12/15/gifts-apple-pkm-analog#the-johnny-decimal-workbook-life-admin-pack"
+      >Ellane</a
+    >, <a href="https://ellanew.com/about">small business owner</a>
+  </p>
+</div>
+
+<style lang="scss">
+  @use "../../style/responsive" as r;
+
+  #quote-required-reading {
+    border: 2px solid var(--border);
+    box-shadow: inset 0px 0px 12px rgba(17, 38, 42, 0.2);
+    hanging-punctuation: first;
+    margin: 2rem auto;
+    max-width: 450px;
+    padding: 1.5rem 2rem;
+    @include r.mobile {
+      padding: 1rem;
+    }
+    @include r.dark {
+      box-shadow: inset 0px 0px 12px rgba(232, 234, 236, 0.2);
+    }
+
+    p {
+      color: var(--highlight-text);
+      font-size: 1rem;
+    }
+
+    .attribution {
+      font-style: italic;
+      margin-top: 0.2rem;
+    }
+  }
+</style>

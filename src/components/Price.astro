@@ -26,7 +26,7 @@
             media="(prefers-color-scheme: dark)"
             srcset="/img/platinum-dark.png"
           />
-          <img src="/img/platinum-light" width="100%" class="platinum" />
+          <img src="/img/platinum-light.png" width="100%" class="platinum" />
         </picture>
 
         <ul>
@@ -56,7 +56,7 @@
           media="(prefers-color-scheme: dark)"
           srcset="/img/gold-dark.png"
         />
-        <img src="/img/gold-light" width="100%" class="gold" />
+        <img src="/img/gold-light.png" width="100%" class="gold" />
       </picture>
 
       <ul>
@@ -68,9 +68,21 @@
     </div>
   </div>
   <p class="price-note">
-    All prices in US dollars. Choose your local currency at checkout. Afterpay
-    available.
+    Prices in US dollars. Choose your local currency at checkout.
   </p>
+  <div class="payment-logos-container">
+    <picture class="payment-logos">
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="/img/payment-logos-light.png"
+      />
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="/img/payment-logos-dark.png"
+      />
+      <img src="/img/payment-logos-light.png" width="352" />
+    </picture>
+  </div>
 </div>
 
 <style lang="scss">
@@ -213,5 +225,12 @@
   }
   img.gold {
     border: 1px solid goldenrod;
+  }
+  .payment-logos-container {
+    text-align: center;
+  }
+  picture.payment-logos {
+    display: inline-block;
+    margin: 0 auto;
   }
 </style>

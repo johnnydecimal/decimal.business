@@ -106,9 +106,6 @@ http://www.flyingsolo.com.au/forums/index.php?threads/starting-a-business-read-i
 # What do people actually need?
 Research taken from browsing the "[Starting a business](http://www.flyingsolo.com.au/forums/index.php?forums/starting-a-business.17/)" forum
 
-1. Lots of people [who](http://www.flyingsolo.com.au/forums/index.php?threads/feedback-would-be-awesome.34346/) [really](http://www.flyingsolo.com.au/forums/index.php?threads/in-need-of-wholesalers-starting-a-womans-clothing-online-store.33947/) [have](http://www.flyingsolo.com.au/forums/index.php?threads/help-help-help.34452/) [no](http://www.flyingsolo.com.au/forums/index.php?threads/starting-bookkeeping-firm.34478/) [idea](http://www.flyingsolo.com.au/forums/index.php?threads/what-do-you-think.34297/)
-2. 
-
 ---
 
 # Meta
@@ -132,27 +129,26 @@ Research taken from browsing the "[Starting a business](http://www.flyingsolo.co
 ## Frameworks
 - Search "start business framework"
     - http://toolkit.smallbiz.nsw.gov.au/userinfo
-        - HOLY _______ SHIT this is bad
         - It's on the first page of Google
-    - Everything else is just .gov help; all crap
+    - Everything else is just .gov help; all meh
     - http://www.mybusinessconnect.com.au/?b=bsa
     - https://www.planhq.com/try_planhq
         - The landing page looks like it might be a competitor - but then click on one of the "get started" links and it soon becomes very disappointing
         - This is the closest, on first glance
-        - They're "almost, but no cigar" - they're not even a smoker
-        - And if you're not a BankSA customer, you have to pick from all of this shit
+        - They're "almost, but no cigar"
+        - And if you're not a BankSA customer, you have to pick from this
             - https://bsa.mybusinessconnect.com.au/app/ssprovision.do?planhq_guest_token=RxcRM5WthNwDrfpNqc7g
         - $35/mo for a bunch of those plans (3 of them, at least, to get it all)
 
 ## Other
 - http://myob.com.au/blog/i-am-a-small-business-getting-big-how-do-i-manage-my-growth/
-    - Generic, generic advice; nothing useful *at all*
+    - Generic, generic advice
 - Can't remember how I found this - _______ expensive! And basically just some crappy books and "advice", when it boils down to it
     - http://www.healthynumbers.com.au/our_products/getting-startups-started/
-- Also shite
+- Also meh
     - http://onlinebeginnershub.com
     - Yet, "I'm starting a new online retail business and have been searching online ALOT for something like this. I would however probably not spend more then $500 in my starting out phase." [ref](http://www.flyingsolo.com.au/forums/index.php?threads/feedback-please-program-to-help-new-business-get-started.33852/#post-209596)
-    - Looking to become something like what you're thinking about, but the PDF you got emailed (2015-05-09 20:07) looks _______ appaling
+    - Looking to become something like what you're thinking about, but the PDF you got emailed (2015-05-09 20:07) looks ...
 
 
 ## "Tools to manage my business"
@@ -168,7 +164,7 @@ Unless it's all extraordinarily hard to find, this absolutely has not been done 
 
 Go meta. Apply all the ideas of BIAB to BIAB. i.e. Is it viable, business plan, etc
 
-http://www.nerdwallet.com/ is nice, what can we take?
+http://www.nerdwallet.com/ is nice.
 
 Do some actual analysis on how long it takes people to find something via search via J.D folders or whatever. You just watched Vishal look for a file that would have taken you ten seconds to find and it took him a minute and he was frustrated.
 
@@ -202,7 +198,7 @@ Ask people for each bit "do you mind doing this?", just a quick rating. e.g. I h
 
 Holy shit tie pomodoro in to the site. You start a thing; we focus you, present what you need; we make it hard/guilty for you to go back to anything else for 20 minutes. Do your books, man! And we track how long you spend doing each thing, for your own feedback & improvement. 
 
-Mock this shit up & present a whole package to the kids on the projector. Present, not discuss. Then Q&A. Alex as well. Get a wireframe thing for Keynote. Do it all in there. Print out slides with places for them to write notes.
+Mock this up & present a whole package to the kids on the projector. Then Q&A. Alex as well. Get a wireframe thing for Keynote. Do it all in there. Print out slides with places for them to write notes.
 
 Demo of ;;meeting. nvALT. Create then find. And do an *asterisk wiki demo to a FAQ about why we use JPDATE. In real like that might be a float-over, just demo the *concept*. 
 

@@ -30,6 +30,24 @@
       @include r.mobile {
         font-size: 5vw;
       }
+
+      a {
+        color: var(--link-visited);
+        &:visited {
+          color: var(--link-visited);
+        }
+        &:hover {
+          // background-color: var(--link-hover-bg);
+          background-color: var(--link-visited-hover-bg);
+          color: var(--link-hover);
+        }
+        &:visited:hover {
+          background-color: var(--link-visited-hover-bg);
+        }
+        &:active {
+          color: var(--link-hover-bg);
+        }
+      }
     }
   }
 </style>

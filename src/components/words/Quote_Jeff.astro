@@ -1,0 +1,40 @@
+<div id="quote-required-reading">
+  <p class="quote">
+    “I’ve been telling everyone who will listen about Johnny Decimal for the
+    last year. It’s hard to explain what a game-changer the system and its
+    philosophy are.
+  </p>
+  <p>I’m looking forward to Decimal Business.”</p>
+  <p class="attribution">
+    —<a href="https://lovettsundries.com">Jeff Lovett, Lovett Sundries</a>
+  </p>
+</div>
+
+<style lang="scss">
+  @use "../../style/responsive" as r;
+
+  #quote-required-reading {
+    border: 2px solid var(--border);
+    box-shadow: inset 0px 0px 12px rgba(17, 38, 42, 0.2);
+    hanging-punctuation: first;
+    margin: 2rem auto;
+    max-width: 450px;
+    padding: 1.5rem 2rem;
+    @include r.mobile {
+      padding: 1rem;
+    }
+    @include r.dark {
+      box-shadow: inset 0px 0px 12px rgba(232, 234, 236, 0.2);
+    }
+
+    p {
+      color: var(--highlight-text);
+      font-size: 1rem;
+    }
+
+    .attribution {
+      font-style: italic;
+      margin-top: 0.2rem;
+    }
+  }
+</style>
